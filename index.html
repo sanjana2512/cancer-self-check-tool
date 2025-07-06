@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SymptoScan - Early Cancer Awareness Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🩺 SymptoScan</h1>
+    <p>Select a cancer type to begin self-check:</p>
+    <p style="color: #555; font-size: 14px;">
+      ⚠️ This tool is for awareness only. Not a diagnosis.
+    </p>
+
+    <!-- Cancer Type Dropdown -->
+    <select id="cancerType">
+      <option value="">-- Select Cancer Type --</option>
+      <option value="oral">Oral / Tongue Cancer</option>
+      <option value="lung">Lung Cancer</option>
+      <option value="breast">Breast Cancer</option>
+      <option value="colon">Colon / Bowel Cancer</option>
+    </select>
+
+    <!-- Symptom Checklist Section -->
+    <div id="symptomChecklist" class="symptom-box"></div>
+
+    <!-- Check Risk Button -->
+    <button id="checkBtn" style="display: none;">Check My Risk</button>
+
+    <!-- Result Display -->
+    <div id="resultBox" class="result-box"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

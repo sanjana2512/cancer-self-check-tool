@@ -1,0 +1,75 @@
+/* Body styling */
+/* General body */
+/* General body */
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f9f6;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centered container */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #2c7a7b;
+}
+
+/* Dropdown style */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Symptom box spacing */
+.symptom-box {
+  margin-bottom: 20px;
+}
+
+/* Result message box */
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Day 2: Checkboxes */
+label input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.2);
+  accent-color: #2c7a7b;
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #2c7a7b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+button:hover {
+  background-color: #226466;
+  transform: scale(1.03);
+}
