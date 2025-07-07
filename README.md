@@ -1,42 +1,68 @@
-# Cancer Symptom Self-Check Tool 🩺📋
+# Cancer Symptom Self-Check Tool
 
-A web-based tool that allows users to self-screen symptoms for oral, tongue, and breast cancer using a simple guided interface built with HTML, CSS, and JavaScript.
+This is a simple and responsive web tool built using HTML, CSS, and JavaScript that allows users to self-check symptoms for oral, tongue, and breast cancer. It is designed to raise early health awareness and encourage users to consult a doctor if multiple symptoms are present.
 
-🔗 **Live Demo**: [Click to View](https://sanjana2512.github.io/cancer-self-check-tool/)  
-📁 **GitHub Repo**: [View Code](https://github.com/sanjana2512/cancer-self-check-tool)
+### 🔗 Live Demo  
+https://sanjana2512.github.io/cancer-self-check-tool/
 
----
-
-## 🚀 Features
-
-- 🧠 **Symptom-based self-check logic** with smart recommendation
-- ✅ Supports cancer types: **Oral, Tongue, and Breast**
-- 📱 Fully responsive design for accessibility on all devices
-- 📢 Provides educational tips for early detection
-- 🚀 Deployed with **GitHub Pages**
+### 📁 GitHub Repository  
+https://github.com/sanjana2512/cancer-self-check-tool
 
 ---
 
-## 🧰 Tech Stack
+## Project Description
 
-- HTML5  
-- CSS3  
-- JavaScript (DOM logic and symptom mapping)
+The tool provides users with a guided form containing symptoms grouped by cancer type. Based on the number and severity of selected symptoms, it evaluates whether the user should seek a medical consultation.
 
----
-
-## 💡 Use Case
-
-Ideal for raising **early awareness** of cancer symptoms among non-technical users via a user-friendly interface.
+While not a diagnostic application, the tool offers basic awareness and prevention guidance. It works seamlessly on mobile and desktop devices, making it accessible to users of all backgrounds.
 
 ---
 
-## 📸 Screenshots
+## Key Features
 
-_Add a screenshot of the interface here if needed_
+- Covers three cancer types: **oral, tongue, and breast**
+- Users select symptoms through a checklist-style interface
+- Suggests whether a doctor visit is advisable based on selections
+- Clean, distraction-free design for better focus and usability
+- Mobile-responsive layout for all screen sizes
+- Hosted live using GitHub Pages for public access
 
 ---
 
-## 📄 License
+## Tech Stack
 
-This project is open source and created for awareness and education.
+The project is built entirely with front-end technologies:
+
+- **HTML5** – Page structure and content layout  
+- **CSS3** – Styling, layout, and responsive behavior  
+- **JavaScript (Vanilla)** – Symptom evaluation logic and UI interaction
+
+No external frameworks or libraries were used, making the code beginner-friendly and easy to understand.
+
+---
+
+## File Structure
+
+cancer-self-check-tool/
+├── index.html // Main HTML structure
+├── style.css // Styling and responsive layout
+└── script.js // All symptom logic and interactivity
+
+
+---
+
+## Deployment
+
+This project is deployed using **GitHub Pages** and can be accessed without any login or signup. It runs entirely on the client-side and requires no backend or server.
+
+---
+
+## Disclaimer
+
+This tool is intended for **educational and awareness purposes only**. It does not provide any diagnosis or medical treatment advice. Always consult a licensed doctor for health concerns.
+
+---
+
+## License
+
+This project is open-source and free to use for awareness and educational initiativ
